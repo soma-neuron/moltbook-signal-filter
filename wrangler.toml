@@ -1,0 +1,9 @@
+name = "moltbook-signal-filter"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# Secrets (set via wrangler secret put):
+# MOLTBOOK_API_KEY = "moltbook_sk_BsYlri5GPJHn-8j4Z3ZQriHmYeXgwYt_"
